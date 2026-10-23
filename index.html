@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+    <!-- Navigation Bar -->
+    <nav class="topmenu">
+        <div class="profile_name">
+            <h1>Priya Rani</h1>
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Project Details</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </nav>
+
+    <!-- Name -->
+    <header class="hero">
+        <p>Welcome to my personal portfolio website!</p>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img id="profile-image"
+             src="photo.jpeg"
+             alt="Portrait of Priya Rani" width="160" height="160">
+        <h3>Priya Rani</h3>
+        <p>
+            I am a passionate learner interested in technology,
+            programming, data science, and web development.
+            I enjoy learning new skills and building useful projects.
+        </p>
+    </section>
+
+    <!-- Skills with Logos -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <img src="https://cdn.simpleicons.org/html5/E34F26"
+                     alt="HTML Logo">
+                <p>HTML</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.simpleicons.org/css/1572B6"
+                     alt="CSS Logo">
+                <p>CSS</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.simpleicons.org/javascript/F7DF1E"
+                     alt="JavaScript Logo">
+                <p>JavaScript</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.simpleicons.org/python/3776AB"
+                     alt="Python Logo">
+                <p>Python</p>
+            </div>
+
+            <div class="skill">
+                <img src="https://cdn.simpleicons.org/mysql/4479A1"
+                     alt="MySQL Logo">
+                <p>MySQL</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>Personal Portfolio</h3>
+            <p>A website to showcase my skills and achievements.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Sales Data Analyzer</h3>
+            <p>Analyzing the Total sales on the basis of Sales Dataset.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Grade Tracker</h3>
+            <p>A Python tool for recording grades and calculating student performance.</p>
+        </div>
+
+    </section>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+
+        <div id="recommendation-list">
+            <div class="recommendation">
+                A dedicated learner with a positive attitude.
+            </div>
+
+            <div class="recommendation">
+                Shows interest in solving problems and learning new skills.
+            </div>
+
+            <div class="recommendation">
+                Works well with others and is eager to improve.
+            </div>
+        </div>
+
+        <h3>Add a Recommendation</h3>
+
+        <textarea id="recommendation-input"
+                  placeholder="Write your recommendation..."></textarea>
+
+        <button id="add-recommendation">Submit</button>
+        <p id="message"></p>
+
+        <dialog id="recommendation-popup" aria-labelledby="popup-message">
+            <p id="popup-message">Thank you for your recommendation!</p>
+            <button id="close-popup" type="button">Close</button>
+        </dialog>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Priya Rani | My Portfolio</p>
+    </footer>
+
+    <!-- Home Icon -->
+    <div class="iconbutton">
+        <a href="#home" title="Go to Home" aria-label="Go to Home">⌂</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
